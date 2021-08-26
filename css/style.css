@@ -165,3 +165,10 @@ input[name*='Pet'] {
 	border-color: red;
 	border-style: solid;
 }
+.image {
+	background-image: url('../images/pic.jpeg');
+	min-height: 100vh;
+	background-size: cover;
+	background-position: 0% 10%;
+	background-repeat: no-repeat;
+}
