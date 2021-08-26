@@ -129,3 +129,28 @@ input,
 select {
 	vertical-align: middle;
 }
+a {
+	text-decoration: none;
+	color: white;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: cadetblue;
+	padding: 0 2rem;
+}
+nav div:not(:nth-child(2)) {
+	flex: 100%;
+}
+nav div:last-child {
+	display: flex;
+	justify-content: flex-end;
+}
+h1 {
+	font-size: 4rem;
+	color: white;
+}
+nav a:not(:last-child) {
+	margin-right: .5rem;
+}
