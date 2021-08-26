@@ -150,7 +150,18 @@ nav div:last-child {
 h1 {
 	font-size: 4rem;
 	color: white;
+	position: relative;
+	top: .7rem;
 }
 nav a:not(:last-child) {
 	margin-right: .5rem;
+}
+main {
+	margin-top: 3rem;
+	display: flex;
+	justify-content: center;
+}
+input[name*='Pet'] {
+	border-color: red;
+	border-style: solid;
 }
