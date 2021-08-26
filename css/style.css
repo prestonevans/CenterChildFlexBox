@@ -137,7 +137,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: cadetblue;
+	background-color: #3eb5a0;
 	padding: 0 2rem;
 }
 nav div:not(:nth-child(2)) {
@@ -151,7 +151,7 @@ h1 {
 	font-size: 4rem;
 	color: white;
 	position: relative;
-	top: .7rem;
+	/* top: .7rem; */
 }
 nav a:not(:last-child) {
 	margin-right: .5rem;
@@ -161,14 +161,35 @@ main {
 	display: flex;
 	justify-content: center;
 }
-input[name*='Pet'] {
-	border-color: red;
-	border-style: solid;
-}
 .image {
 	background-image: url('../images/pic.jpeg');
 	min-height: 100vh;
 	background-size: cover;
 	background-position: 0% 10%;
 	background-repeat: no-repeat;
+	position: relative;
+}
+h2 {
+	color: white;
+	font-size: 4rem;
+	max-width: 25vw;
+	font-weight: 100;
+	margin-top: 3.2rem;
+	margin-left: 2rem;
+}
+.button {
+	color: white;
+	background-color: black;
+	padding: .5em 1.2em;
+	border-radius: 1em;
+	opacity: .7;
+	position: absolute;
+	font-size: 3rem;
+	bottom: 4rem;
+	right: 4rem;
+	transition: .3s ease-in;
+}
+.image .button:hover {
+	transform: scale(1.1);
+	cursor: pointer;
 }
