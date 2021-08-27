@@ -152,9 +152,9 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	box-shadow: -20px 5px 200px #57ffe0de;
-	opacity: .7;
+	opacity: .8;
 	padding: 1rem 2rem;
-	background: linear-gradient(4deg, #57ffe0c5, transparent);
+	background: linear-gradient(4deg, #57ffe0c5, #df7476);
 }
 nav div:not(:nth-child(2)) {
 	flex: 100%;
