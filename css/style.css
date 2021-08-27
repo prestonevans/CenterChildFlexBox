@@ -151,8 +151,10 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #3eb5a0;
-	padding: 0 2rem;
+	box-shadow: -20px 5px 200px #57ffe0de;
+	opacity: .7;
+	padding: 1rem 2rem;
+	background: linear-gradient(4deg, #57ffe0c5, transparent);
 }
 nav div:not(:nth-child(2)) {
 	flex: 100%;
@@ -184,7 +186,7 @@ main {
 	position: relative;
 }
 h2 {
-	color: white;
+	color: rgba(223, 223, 223, 0.808);
 	font-size: 4rem;
 	max-width: 25vw;
 	font-weight: 100;
