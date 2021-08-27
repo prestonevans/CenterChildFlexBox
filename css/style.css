@@ -131,7 +131,7 @@ select {
 }
 a {
 	text-decoration: none;
-	color: white;
+	color: rgba(255, 255, 255, 0.829);
 	font-size: 1.3rem;
 	position: relative;
 }
@@ -139,7 +139,7 @@ a::before {
 	content: '';
 	height: .125rem;
 	width: 0%;
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.74);
 	position: absolute;
 	bottom: -.125rem;
 	transition: .3s ease-in;
@@ -152,9 +152,8 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	box-shadow: -20px 5px 200px #57ffe0de;
-	opacity: .8;
 	padding: 1rem 2rem;
-	background: linear-gradient(4deg, #57ffe0c5, #df7476);
+	background: linear-gradient(4deg, #57ffe0b0, #df7476d3);
 }
 nav div:not(:nth-child(2)) {
 	flex: 100%;
