@@ -203,6 +203,7 @@ h2 {
 	bottom: 4rem;
 	right: 4rem;
 	transition: .3s ease-in;
+	text-transform: capitalize;
 }
 .image .button:hover {
 	transform: scale(1.1);
